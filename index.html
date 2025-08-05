@@ -1,178 +1,351 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Moheed Zafar Hashmi | iOS Developer</title>
+  <title>Moheed Zafar | Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          animation: {
-            fadeIn: 'fadeIn 1s ease-out forwards',
-            slideUp: 'slideUp 1s ease-out forwards',
-          },
-          keyframes: {
-            fadeIn: {
-              '0%': { opacity: '0' },
-              '100%': { opacity: '1' },
-            },
-            slideUp: {
-              '0%': { transform: 'translateY(20px)', opacity: '0' },
-              '100%': { transform: 'translateY(0)', opacity: '1' },
-            },
-          },
-        },
-      },
-    }
-  </script>
 </head>
-<body class="bg-gradient-to-br from-indigo-100 to-white text-gray-800 font-sans">
-  <header class="bg-gradient-to-r from-white via-indigo-50 to-white text-gray-800 shadow p-8 text-center animate-fadeIn">
-  <div class="flex flex-col items-center">
-  <!-- Profile Picture and Header Section -->
-  <!-- <img src="images/pp.png" alt="Profile Picture" class="w-40 h-40 rounded-full border-4 border-white-300 shadow-lg mb-4"> -->
-  <h1 class="text-4xl font-extrabold">Moheed Zafar Hashmi</h1>
-  <p class="mt-2 text-lg font-medium text-gray-700">iOS Developer | Around 7 years of Experience in iOS App Development</p>
-  <div class="mt-4 flex flex-wrap justify-center space-x-6 text-sm font-medium text-indigo-600">
-    <!-- Social Links -->
-    <a href="https://www.linkedin.com/in/moheed-zafar-8a4a5716b" target="_blank" class="hover:text-indigo-900 underline">LinkedIn</a>
-    <a href="https://www.freelancer.com/u/MzHashmi" target="_blank" class="hover:text-indigo-900 underline">Freelancer</a>
-    <a href="https://www.upwork.com/freelancers/moheedz" target="_blank" class="hover:text-indigo-900 underline">Upwork</a>
-    <a href="mailto:Moheedzafarhashmi@gmail.com" class="hover:text-indigo-900 underline">Email</a>
-  </div>
-  </div>
-</header>
 
- <section class="p-10 bg-gradient-to-r from-pink-100 via-purple-100 to-blue-100 animate-slideUp">
-    <h2 class="text-4xl font-bold text-center text-purple-800 mb-10">Client Reviews</h2>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-  <div class="bg-white border-l-8 border-pink-500 p-6 rounded-lg shadow-md hover:shadow-xl transform hover:scale-105 transition">
-    <p class="italic text-gray-800">"I am thrilled with the result. Very flexible and he made all requests possible."</p>
-    <a href="https://www.freelancer.com/u/MzHashmi?review_context_id=29355332&review_type=project&frm=MzHashmi&sb=t" target="_blank" class="block mt-3 text-pink-600 font-semibold underline">Read Full Review</a>
-  </div>
+<body class="bg-black text-white">
+  <!-- Header -->
+ <!-- Wave Divider with Black Gradient and Header -->
+<div class="relative">
+  <svg class="w-full h-40 md:h-64" viewBox="0 0 1440 320" preserveAspectRatio="none">
+    <defs>
+      <linearGradient id="blackGradient" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#000000" />
+        <stop offset="100%" stop-color="#1a1a1a" />
+      </linearGradient>
+    </defs>
+    <path fill="url(#blackGradient)" fill-opacity="1"
+      d="M0,192L60,197.3C120,203,240,213,360,192C480,171,600,117,720,117.3C840,117,960,171,1080,165.3C1200,160,1320,96,1380,64L1440,32L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z">
+    </path>
+  </svg>
 
-  <div class="bg-white border-l-8 border-blue-500 p-6 rounded-lg shadow-md hover:shadow-xl transform hover:scale-105 transition">
-    <p class="italic text-gray-800">"Moheed is very familiar with iOS. He is also a hard working guy. He worked even after project was complete."</p>
-    <a href="https://www.freelancer.com/u/MzHashmi?review_context_id=32881609&review_type=project&frm=MzHashmi&sb=t" target="_blank" class="block mt-3 text-blue-600 font-semibold underline">Read Full Review</a>
-  </div>
-
-  <div class="bg-white border-l-8 border-purple-500 p-6 rounded-lg shadow-md hover:shadow-xl transform hover:scale-105 transition">
-    <p class="italic text-gray-800">"Just the best of the best. Thank you for your professionalism, competence and high degree of knowledge."</p>
-    <a href="https://www.freelancer.com/u/MzHashmi?review_context_id=36574704&review_type=project&frm=MzHashmi&sb=t" target="_blank" class="block mt-3 text-purple-600 font-semibold underline">Read Full Review</a>
-  </div>
-
-  <div class="bg-white border-l-8 border-green-500 p-6 rounded-lg shadow-md hover:shadow-xl transform hover:scale-105 transition">
-    <p class="italic text-gray-800">"All was great. Good relationship."</p>
-    <a href="https://www.freelancer.com/u/MzHashmi?review_context_id=37115221&review_type=project&reviewee_role=freelancer&frm=MzHashmi&sb=t" target="_blank" class="block mt-3 text-green-600 font-semibold underline">Read Full Review</a>
-  </div>
-
-  <div class="bg-white border-l-8 border-indigo-500 p-6 rounded-lg shadow-md hover:shadow-xl transform hover:scale-105 transition">
-    <p class="italic text-gray-800">"Moheed is a skilled iOS developer and completed our iOS project successfully."</p>
-    <a href="https://www.upwork.com/ab/g/pub/wom/prx/eyJwZXJzb25VaWQiOiI5MzYwMDE0Nzk5NDc0ODUxODQiLCJjb250cmFjdFJpZCI6IjM5MTIzNDAwIiwiYmFubmVyVHlwZSI6ImNvbnRyYWN0IiwiYmFubmVyVmFyaWFudCI6ImRlZmF1bHQiLCJ3b20iOiJmbHYyIiwicmVkaXJlY3QiOiJmbF9wcm9maWxlX3Byb21vIn0=?network=linkedin" target="_blank" class="block mt-3 text-indigo-600 font-semibold underline">Read Full Review</a>
-  </div>
-
-  <div class="bg-white border-l-8 border-yellow-500 p-6 rounded-lg shadow-md hover:shadow-xl transform hover:scale-105 transition">
-    <p class="italic text-gray-800">"Showed great initiative in resolving my overall problem, instead of just performing individual tasks."</p>
-    <a href="https://www.upwork.com/freelancers/moheedz?promobnr=1" target="_blank" class="block mt-3 text-yellow-600 font-semibold underline">Read Full Review</a>
-  </div>
-
-  <div class="bg-white border-l-8 border-red-500 p-6 rounded-lg shadow-md hover:shadow-xl transform hover:scale-105 transition">
-    <p class="italic text-gray-800">"Polite, worked late hours to complete tasks, and stayed patient even when bugs appeared."</p>
-    <a href="https://www.freelancer.com/u/MzHashmi?review_context_id=18221952&review_type=project&frm=MzHashmi&sb=t" target="_blank" class="block mt-3 text-red-600 font-semibold underline">Read Full Review</a>
-  </div>
+  <!-- Header -->
+  <header class="absolute top-0 left-0 w-full text-center py-20 md:py-28 z-10">
+    <h1 class="text-4xl md:text-5xl font-bold tracking-wide mb-2 text-white">Moheed Zafar</h1>
+    <p class="text-lg md:text-xl text-gray-300">iOS Developer | SwiftUI Specialist</p>
+  </header>
 </div>
 
-  </section>
 
-  <section class="p-10 animate-slideUp">
-    <h2 class="text-4xl font-bold text-center text-indigo-800 mb-10">Projects</h2>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-  <!-- Shoot Counter and Ringkorn -->
-  <div class="bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
-    <img src="images/sc.webp" alt="Shoot Counter and Ringkorn">
-    <div class="p-6">
-      <h3 class="text-xl font-semibold text-purple-700">Shoot Counter and Ringkorn</h3>
-      <p class="text-sm text-gray-600 mt-2">Forget after training to log important details? This app ensures the shot load of barrels is always traceable.</p>
-      <p class="text-xs mt-2 text-gray-500">Technologies: Swift, UIKit</p>
-      <a href="https://apps.apple.com/us/app/shot-counter-shooting-diary/id1587514166" target="_blank" class="text-indigo-600 underline mt-2 inline-block">App Store</a>
+ <!-- Projects Section -->
+  <section class="px-6 py-12">
+    <h2 class="text-4xl font-semibold mb-10 text-center text-white">Projects</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6">
+      <!-- Start pasting projects from HTML 1 -->
+      <!-- Example project -->
+<div class="bg-gradient-to-br from-gray-800 via-gray-900 to-black rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition duration-300 text-white h-full">
+        <img src="images/sc.webp" alt="Shoot Counter and Ringkorn">
+        <div class="p-6">
+          <h3 class="text-xl font-semibold text-purple-700">Shoot Counter and Ringkorn</h3>
+          <p class="text-sm mt-2">Forget after training to log important details? This app ensures the shot load of barrels is always traceable.</p>
+          <p class="text-xs mt-2 text-gray-500">Technologies: Swift, UIKit, SQLite</p>
+ <a href="https://apps.apple.com/us/app/shot-counter-shooting-diary/id1587514166"
+   target="_blank"
+   class="inline-flex items-center gap-2 bg-white text-black px-4 py-2 rounded-full font-semibold text-sm shadow-md hover:bg-gray-100 transition mt-3">
+  <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+    <path d="M19.664 15.306c-.449 1.022-.98 2.041-1.711 3.105-.898 1.315-1.862 2.63-3.241 2.65-1.26.02-1.672-.825-3.116-.817-1.444.007-1.899.84-3.17.84-1.268 0-2.147-1.214-3.049-2.537C3.394 15.97 2.365 12.694 3.762 10.334c.883-1.513 2.443-2.47 4.1-2.49 1.266-.02 2.461.878 3.116.878.648 0 2.119-1.088 3.555-.928.606.03 2.311.24 3.399 1.81-.09.053-2.038 1.17-2.048 3.473-.01 2.006 1.657 2.659 1.78 2.73zm-4.552-12.49c.548-.673.947-1.613.842-2.546-.818.04-1.792.55-2.369 1.222-.51.6-.958 1.57-.839 2.486.891.067 1.816-.45 2.366-1.162z" />
+  </svg>
+  View on App Store
+</a>
+<a href="https://www.freelancer.com/u/MzHashmi?review_context_id=29355332&review_type=project&frm=MzHashmi&sb=t"
+   target="_blank"
+       class="inline-block mt-4 bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-medium transition">
+
+  Show Review of Client
+</a>
+
+        </div>
+      </div>
+
+<div class="bg-gradient-to-br from-gray-800 via-gray-900 to-black rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition duration-300 text-white h-full">
+        <img src="images/ah.webp" alt="Amihear">
+        <div class="p-6">
+          <h3 class="text-xl font-semibold text-purple-700">Amihear</h3>
+          <p class="text-sm mt-2">Join thousands using the ultimate hearing aid app, AmiHear — empowering better hearing experiences.</p>
+          <p class="text-xs mt-2 text-gray-500">Technologies: Swift, UIKit, API Integrations</p>
+          <a href="https://apps.apple.com/us/app/amihear-hearing-aid-app/id1567250077"
+   target="_blank"
+   class="inline-flex items-center gap-2 bg-white text-black px-4 py-2 rounded-full font-semibold text-sm shadow-md hover:bg-gray-100 transition mt-3">
+  <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+    <path d="M19.664 15.306c-.449 1.022-.98 2.041-1.711 3.105-.898 1.315-1.862 2.63-3.241 2.65-1.26.02-1.672-.825-3.116-.817-1.444.007-1.899.84-3.17.84-1.268 0-2.147-1.214-3.049-2.537C3.394 15.97 2.365 12.694 3.762 10.334c.883-1.513 2.443-2.47 4.1-2.49 1.266-.02 2.461.878 3.116.878.648 0 2.119-1.088 3.555-.928.606.03 2.311.24 3.399 1.81-.09.053-2.038 1.17-2.048 3.473-.01 2.006 1.657 2.659 1.78 2.73zm-4.552-12.49c.548-.673.947-1.613.842-2.546-.818.04-1.792.55-2.369 1.222-.51.6-.958 1.57-.839 2.486.891.067 1.816-.45 2.366-1.162z" />
+  </svg>
+  View on App Store
+</a>
+<a href="https://www.freelancer.com/u/MzHashmi?review_context_id=32881609&review_type=project&frm=MzHashmi&sb=t"
+   target="_blank"
+   class="inline-block mt-4 bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-medium transition">
+
+  Show Review of Client
+</a>
+        </div>
+      </div>
+
+<div class="bg-gradient-to-br from-gray-800 via-gray-900 to-black rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition duration-300 text-white h-full">
+        <img src="images/Dg.webp" alt="DigiForum">
+        <div class="p-6">
+          <h3 class="text-xl font-semibold text-purple-700">DigiForum</h3>
+          <p class="text-sm mt-2">A dynamic platform with dedicated rooms for photos taken with phones, tablets, and more. Trusted by Many photographers.</p>
+          <p class="text-xs mt-2 text-gray-500">Technologies: Swift, Java</p>
+        
+<!-- Start pasting projects from HTML 1
+<a href="https://play.google.com/store/apps/details?id=com.vbulletin.build_8148"
+   target="_blank"
+   class="inline-flex items-center gap-2 bg-white text-black px-4 py-2 rounded-full font-semibold text-sm shadow-md hover:bg-gray-100 transition mt-3">
+  <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+    <path d="M1.5 3.5v17l11-8.5-11-8.5zm12.48 8.5l1.77 1.36 4.25-4.25-4.25-4.25-1.77 1.36 2.48 2.89-2.48 2.89zm2.73 2.09l-1.64 1.26 3.79 3.02c.59.47 1.54.04 1.54-.72v-6.47l-3.69 2.91zm-1.64-8.7l1.64 1.26 3.69-2.91V2.55c0-.76-.95-1.19-1.54-.72l-3.79 3.02z"/>
+  </svg>
+  View on Play Store
+</a>
+  -->
+<a href="https://apps.apple.com/us/app/digiforum/id6446184994"
+   target="_blank"
+   class="inline-flex items-center gap-2 bg-white text-black px-4 py-2 rounded-full font-semibold text-sm shadow-md hover:bg-gray-100 transition mt-3">
+  <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+    <path d="M19.664 15.306c-.449 1.022-.98 2.041-1.711 3.105-.898 1.315-1.862 2.63-3.241 2.65-1.26.02-1.672-.825-3.116-.817-1.444.007-1.899.84-3.17.84-1.268 0-2.147-1.214-3.049-2.537C3.394 15.97 2.365 12.694 3.762 10.334c.883-1.513 2.443-2.47 4.1-2.49 1.266-.02 2.461.878 3.116.878.648 0 2.119-1.088 3.555-.928.606.03 2.311.24 3.399 1.81-.09.053-2.038 1.17-2.048 3.473-.01 2.006 1.657 2.659 1.78 2.73zm-4.552-12.49c.548-.673.947-1.613.842-2.546-.818.04-1.792.55-2.369 1.222-.51.6-.958 1.57-.839 2.486.891.067 1.816-.45 2.366-1.162z" />
+  </svg>
+  View on App Store
+</a>
+
+<a href="https://www.freelancer.com/u/MzHashmi?review_context_id=36574704&review_type=project&frm=MzHashmi&sb=t"
+   target="_blank"
+       class="inline-block mt-4 bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-medium transition">
+
+  Show Review of Client
+</a>
+        </div>
+      </div>
+
+<div class="bg-gradient-to-br from-gray-800 via-gray-900 to-black rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition duration-300 text-white h-full">
+        <img src="images/tc.webp" alt="TopRent">
+        <div class="p-6">
+          <h3 class="text-xl font-semibold text-purple-700">TopRent</h3>
+          <p class="text-sm mt-2">Optimizing car reservation tasks for TopRent’s drivers for more efficient and stress-free workflows.</p>
+          <p class="text-xs mt-2 text-gray-500">Technologies: React Native, Swift, Kotlin, SQLite, API Integrations</p>
+          <a href="https://apps.apple.com/us/app/top-rent-app/id6451073442"
+   target="_blank"
+   class="inline-flex items-center gap-2 bg-white text-black px-4 py-2 rounded-full font-semibold text-sm shadow-md hover:bg-gray-100 transition mt-3">
+  <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+    <path d="M19.664 15.306c-.449 1.022-.98 2.041-1.711 3.105-.898 1.315-1.862 2.63-3.241 2.65-1.26.02-1.672-.825-3.116-.817-1.444.007-1.899.84-3.17.84-1.268 0-2.147-1.214-3.049-2.537C3.394 15.97 2.365 12.694 3.762 10.334c.883-1.513 2.443-2.47 4.1-2.49 1.266-.02 2.461.878 3.116.878.648 0 2.119-1.088 3.555-.928.606.03 2.311.24 3.399 1.81-.09.053-2.038 1.17-2.048 3.473-.01 2.006 1.657 2.659 1.78 2.73zm-4.552-12.49c.548-.673.947-1.613.842-2.546-.818.04-1.792.55-2.369 1.222-.51.6-.958 1.57-.839 2.486.891.067 1.816-.45 2.366-1.162z" />
+  </svg>
+  View on App Store
+</a>
+<a href="https://www.freelancer.com/u/MzHashmi?review_context_id=37115221&review_type=project&reviewee_role=freelancer&frm=MzHashmi&sb=t"
+   target="_blank"
+       class="inline-block mt-4 bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-medium transition">
+
+  Show Review of Client
+</a>
+        </div>
+      </div>
+
+<div class="bg-gradient-to-br from-gray-800 via-gray-900 to-black rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition duration-300 text-white h-full">
+        <img src="images/zg.webp" alt="Zestlog">
+        <div class="p-6">
+          <h3 class="text-xl font-semibold text-purple-700">Zestlog</h3>
+          <p class="text-sm mt-2">Forget generic workouts. Zestlog crafts personalized plans engineered for your unique body.</p>
+          <p class="text-xs mt-2 text-gray-500">Technologies: Swift, OpenAi </p>
+          
+          <a href="https://apps.apple.com/in/app/zestlog-fitness-home-gym/id1601695472"
+   target="_blank"
+   class="inline-flex items-center gap-2 bg-white text-black px-4 py-2 rounded-full font-semibold text-sm shadow-md hover:bg-gray-100 transition mt-3">
+  <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+    <path d="M19.664 15.306c-.449 1.022-.98 2.041-1.711 3.105-.898 1.315-1.862 2.63-3.241 2.65-1.26.02-1.672-.825-3.116-.817-1.444.007-1.899.84-3.17.84-1.268 0-2.147-1.214-3.049-2.537C3.394 15.97 2.365 12.694 3.762 10.334c.883-1.513 2.443-2.47 4.1-2.49 1.266-.02 2.461.878 3.116.878.648 0 2.119-1.088 3.555-.928.606.03 2.311.24 3.399 1.81-.09.053-2.038 1.17-2.048 3.473-.01 2.006 1.657 2.659 1.78 2.73zm-4.552-12.49c.548-.673.947-1.613.842-2.546-.818.04-1.792.55-2.369 1.222-.51.6-.958 1.57-.839 2.486.891.067 1.816-.45 2.366-1.162z" />
+  </svg>
+  View on App Store
+</a>
+<a href="https://www.upwork.com/ab/g/pub/wom/prx/eyJwZXJzb25VaWQiOiI5MzYwMDE0Nzk5NDc0ODUxODQiLCJjb250cmFjdFJpZCI6IjM5MTIzNDAwIiwiYmFubmVyVHlwZSI6ImNvbnRyYWN0IiwiYmFubmVyVmFyaWFudCI6ImRlZmF1bHQiLCJ3b20iOiJmbHYyIiwicmVkaXJlY3QiOiJmbF9wcm9maWxlX3Byb21vIn0=?network=linkedin"
+   target="_blank"
+    class="inline-block mt-4 bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-medium transition">
+
+  Show Review of Client
+</a>
+        </div>
+      </div>
+
+<div class="bg-gradient-to-br from-gray-800 via-gray-900 to-black rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition duration-300 text-white h-full">
+        <img src="images/cl.webp" alt="Carnet Lucie">
+        <div class="p-6">
+          <h3 class="text-xl font-semibold text-purple-700">Carnet Lucie</h3>
+          <p class="text-sm mt-2">Discover the best spots in Southern California — no scrolling, no guesswork.</p>
+          <p class="text-xs mt-2 text-gray-500">Technologies: SwiftUI, Firebase, Google Maps</p>
+          <a href="https://apps.apple.com/ca/app/carnet-lucie/id6747844349?uo=2"
+   target="_blank"
+   class="inline-flex items-center gap-2 bg-white text-black px-4 py-2 rounded-full font-semibold text-sm shadow-md hover:bg-gray-100 transition mt-3">
+  <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+    <path d="M19.664 15.306c-.449 1.022-.98 2.041-1.711 3.105-.898 1.315-1.862 2.63-3.241 2.65-1.26.02-1.672-.825-3.116-.817-1.444.007-1.899.84-3.17.84-1.268 0-2.147-1.214-3.049-2.537C3.394 15.97 2.365 12.694 3.762 10.334c.883-1.513 2.443-2.47 4.1-2.49 1.266-.02 2.461.878 3.116.878.648 0 2.119-1.088 3.555-.928.606.03 2.311.24 3.399 1.81-.09.053-2.038 1.17-2.048 3.473-.01 2.006 1.657 2.659 1.78 2.73zm-4.552-12.49c.548-.673.947-1.613.842-2.546-.818.04-1.792.55-2.369 1.222-.51.6-.958 1.57-.839 2.486.891.067 1.816-.45 2.366-1.162z" />
+  </svg>
+  View on App Store
+</a>
+<a href="https://www.upwork.com/freelancers/moheedz?promobnr=1"
+   target="_blank"
+            class="inline-block mt-4 bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-medium transition">
+
+  Show Review of Client
+</a>
+        </div>
+      </div>
+
+<div class="bg-gradient-to-br from-gray-800 via-gray-900 to-black rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition duration-300 text-white h-full">
+                <img src="images/hoot.jpg" alt="Hoot">
+        <div class="p-6">
+          <h3 class="text-xl font-semibold text-purple-700">Hoot</h3>
+          <p class="text-sm mt-2">"Hoot" helps communities coordinate events, wants, and needs in a unified way.</p>
+          <p class="text-xs mt-2 text-gray-500">Technologies: Swift, Firebase, Push Notifications</p>
+          <span class="text-gray-500 text-xs mt-2 inline-block">Not available on public store</span>
+          <a href="https://www.freelancer.com/u/MzHashmi?review_context_id=18221952&review_type=project&frm=MzHashmi&sb=t"
+   target="_blank"
+         class="inline-block mt-4 bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-medium transition">
+  
+  Show Review of Client
+</a>
+        </div>
+      </div>
+      <!-- End of projects -->
     </div>
+    <!-- View All Button -->
+  <div class="text-center mt-12">
+    <a href="https://www.freelancer.com/u/MzHashmi" target="_blank"
+         class="inline-block mt-4 bg-white-500 hover:bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-medium transition">
+      View All On Freelancer →
+    </a>
+    <a href="https://www.upwork.com/freelancers/moheedz" target="_blank"
+         class="inline-block mt-4 bg-white-500 hover:bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-medium transition">
+      View All On Upwork →
+    </a>
   </div>
-
-  <!-- Amihear -->
-  <div class="bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
-    <img src="images/ah.webp" alt="Amihear">
-    <div class="p-6">
-      <h3 class="text-xl font-semibold text-purple-700">Amihear</h3>
-      <p class="text-sm text-gray-600 mt-2">Join thousands using the ultimate hearing aid app, AmiHear — empowering better hearing experiences.</p>
-      <p class="text-xs mt-2 text-gray-500">Technologies: Swift, UIKit</p>
-      <a href="https://apps.apple.com/us/app/amihear-hearing-aid-app/id1567250077" target="_blank" class="text-indigo-600 underline mt-2 inline-block">App Store</a>
-    </div>
-  </div>
-
-  <!-- DigiForum -->
-  <div class="bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
-    <img src="images/digi.webp" alt="DigiForum">
-    <div class="p-6">
-      <h3 class="text-xl font-semibold text-purple-700">DigiForum</h3>
-      <p class="text-sm text-gray-600 mt-2">A dynamic platform with dedicated rooms for photos taken with phones, tablets, and more.</p>
-      <p class="text-xs mt-2 text-gray-500">Technologies: Swift, Java</p>
-      <a href="https://play.google.com/store/apps/details?id=com.vbulletin.build_8148" target="_blank" class="text-indigo-600 underline mt-2 inline-block">Play Store</a>
-    </div>
-  </div>
-
-  <!-- TopRent -->
-  <div class="bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
-    <img src="images/tc.webp" alt="TopRent">
-    <div class="p-6">
-      <h3 class="text-xl font-semibold text-purple-700">TopRent</h3>
-      <p class="text-sm text-gray-600 mt-2">Optimizing car reservation tasks for TopRent’s drivers for more efficient and stress-free workflows.</p>
-      <p class="text-xs mt-2 text-gray-500">Technologies: React Native, Swift, Kotlin</p>
-      <a href="https://apps.apple.com/us/app/top-rent-app/id6451073442" target="_blank" class="text-indigo-600 underline mt-2 inline-block">App Store</a>
-    </div>
-  </div>
-
-  <!-- Zestlog -->
-  <div class="bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
-    <img src="images/zg.webp" alt="Zestlog">
-    <div class="p-6">
-      <h3 class="text-xl font-semibold text-purple-700">Zestlog</h3>
-      <p class="text-sm text-gray-600 mt-2">Forget generic workouts. Zestlog crafts personalized plans engineered for your unique body.</p>
-      <p class="text-xs mt-2 text-gray-500">Technologies: Swift</p>
-      <a href="https://apps.apple.com/in/app/zestlog-fitness-home-gym/id1601695472" target="_blank" class="text-indigo-600 underline mt-2 inline-block">App Store</a>
-    </div>
-  </div>
-
-  <!-- Carnet Lucie -->
-  <div class="bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
-    <img src="images/cl.webp" alt="Carnet Lucie">
-    <div class="p-6">
-      <h3 class="text-xl font-semibold text-purple-700">Carnet Lucie</h3>
-      <p class="text-sm text-gray-600 mt-2">Discover the best spots in Southern California — no scrolling, no guesswork.</p>
-      <p class="text-xs mt-2 text-gray-500">Technologies: SwiftUI</p>
-      <a href="https://apps.apple.com/ca/app/carnet-lucie/id6747844349?uo=2" target="_blank" class="text-indigo-600 underline mt-2 inline-block">App Store</a>
-    </div>
-  </div>
-
-  <!-- Hoot -->
-  <div class="bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
-    <div class="p-6">
-      <h3 class="text-xl font-semibold text-purple-700">Hoot</h3>
-      <p class="text-sm text-gray-600 mt-2">"Hoot" helps communities coordinate events, wants, and needs in a unified way.</p>
-      <p class="text-xs mt-2 text-gray-500">Technologies: Swift, UIKit, Firebase</p>
-      <span class="text-gray-500 text-xs mt-2 inline-block">Not available on public store</span>
-    </div>
-  </div>
-</div>
-
   </section>
 
  
 
-  <footer class="bg-gray-900 text-white p-6 text-center animate-fadeIn">
-    <p>Contact: <a href="mailto:Moheedzafarhashmi@gmail.com" class="underline">Moheedzafarhashmi@gmail.com</a></p>
-    <p class="mt-2 text-sm">© 2025 Moheed Zafar Hashmi</p>
+  <!-- Wave Divider -->
+  <svg class="w-full" viewBox="0 0 1440 320"><path fill="url(#blackGradient)" fill-opacity="1"
+      d="M0,64L60,74.7C120,85,240,107,360,133.3C480,160,600,192,720,202.7C840,213,960,203,1080,176C1200,149,1320,107,1380,85.3L1440,64L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+    </path></svg>
+
+
+ <!-- Reviews Section -->
+<section class="px-6 py-12">
+  <h2 class="text-4xl font-semibold mb-10 text-center text-white">Client Reviews</h2>
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    
+    <!-- Review 1 -->
+    <div class="bg-white bg-opacity-10 backdrop-blur-lg p-6 rounded-xl shadow-lg hover:scale-105 transition-transform">
+      <p class="italic text-lg">"I am thrilled with the result. Very flexible and he made all requests possible."</p>
+      <a href="https://www.freelancer.com/u/MzHashmi?review_context_id=29355332&review_type=project&frm=MzHashmi&sb=t"
+         target="_blank"
+         class="inline-block mt-4 bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-medium transition">
+        Read Full Review
+      </a>
+    </div>
+
+    <!-- Review 2 -->
+    <div class="bg-white bg-opacity-10 backdrop-blur-lg p-6 rounded-xl shadow-lg hover:scale-105 transition-transform">
+      <p class="italic text-lg">"Moheed is very familiar with iOS. He is also a hard working guy. He worked even after project was complete."</p>
+      <a href="https://www.freelancer.com/u/MzHashmi?review_context_id=32881609&review_type=project&frm=MzHashmi&sb=t"
+         target="_blank"
+         class="inline-block mt-4 bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-medium transition">
+        Read Full Review
+      </a>
+    </div>
+
+    <!-- Review 3 -->
+    <div class="bg-white bg-opacity-10 backdrop-blur-lg p-6 rounded-xl shadow-lg hover:scale-105 transition-transform">
+      <p class="italic text-lg">"Just the best of the best. Thank you for your professionalism, competence and high degree of knowledge."</p>
+      <a href="https://www.freelancer.com/u/MzHashmi?review_context_id=36574704&review_type=project&frm=MzHashmi&sb=t"
+         target="_blank"
+         class="inline-block mt-4 bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-medium transition">
+        Read Full Review
+      </a>
+    </div>
+
+    <!-- Review 4 -->
+    <div class="bg-white bg-opacity-10 backdrop-blur-lg p-6 rounded-xl shadow-lg hover:scale-105 transition-transform">
+      <p class="italic text-lg">"All was great. Good relationship."</p>
+      <a href="https://www.freelancer.com/u/MzHashmi?review_context_id=37115221&review_type=project&reviewee_role=freelancer&frm=MzHashmi&sb=t"
+         target="_blank"
+         class="inline-block mt-4 bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-medium transition">
+        Read Full Review
+      </a>
+    </div>
+
+    <!-- Review 5 -->
+    <div class="bg-white bg-opacity-10 backdrop-blur-lg p-6 rounded-xl shadow-lg hover:scale-105 transition-transform">
+      <p class="italic text-lg">"Moheed is a skilled iOS developer and completed our iOS project successfully."</p>
+      <a href="https://www.upwork.com/ab/g/pub/wom/prx/eyJwZXJzb25VaWQiOiI5MzYwMDE0Nzk5NDc0ODUxODQiLCJjb250cmFjdFJpZCI6IjM5MTIzNDAwIiwiYmFubmVyVHlwZSI6ImNvbnRyYWN0IiwiYmFubmVyVmFyaWFudCI6ImRlZmF1bHQiLCJ3b20iOiJmbHYyIiwicmVkaXJlY3QiOiJmbF9wcm9maWxlX3Byb21vIn0=?network=linkedin"
+         target="_blank"
+         class="inline-block mt-4 bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-medium transition">
+        Read Full Review
+      </a>
+    </div>
+
+    <!-- Review 6 -->
+    <div class="bg-white bg-opacity-10 backdrop-blur-lg p-6 rounded-xl shadow-lg hover:scale-105 transition-transform">
+      <p class="italic text-lg">"Showed great initiative in resolving my overall problem, instead of just performing individual tasks."</p>
+      <a href="https://www.upwork.com/freelancers/moheedz?promobnr=1"
+         target="_blank"
+         class="inline-block mt-4 bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-medium transition">
+        Read Full Review
+      </a>
+    </div>
+
+    <!-- Review 7 -->
+    <div class="bg-white bg-opacity-10 backdrop-blur-lg p-6 rounded-xl shadow-lg hover:scale-105 transition-transform">
+      <p class="italic text-lg">"He was polite, and was willing to work late hours to complete the task. When presented with some bugs, he was patient and understanding."</p>
+      <a href="https://www.freelancer.com/u/MzHashmi?review_context_id=18221952&review_type=project&frm=MzHashmi&sb=t"
+         target="_blank"
+         class="inline-block mt-4 bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-medium transition">
+        Read Full Review
+      </a>
+    </div>
+
+  </div>
+
+  <!-- View All Button -->
+  <div class="text-center mt-12">
+    <a href="https://www.freelancer.com/u/MzHashmi" target="_blank"
+         class="inline-block mt-4 bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-medium transition">
+      View All On Freelancer→
+    </a>
+    <a href="https://www.upwork.com/freelancers/moheedz"
+         target="_blank"
+         class="inline-block mt-4 bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-medium transition">
+        View All On Upwork →
+      </a>
+  </div>
+</section>
+
+ 
+
+  <!-- Final Wave -->
+  <svg class="w-full" viewBox="0 0 1440 320"><path fill="url(#blackGradient)" fill-opacity="1"
+      d="M0,224L60,213.3C120,203,240,181,360,181.3C480,181,600,203,720,208C840,213,960,203,1080,170.7C1200,139,1320,85,1380,58.7L1440,32L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+    </path></svg>
+
+<!-- About Me Section -->
+<section class="url(#blackGradient)">
+  <div class="max-w-4xl mx-auto px-6 text-center">
+    <h2 class="text-3xl font-bold mb-4">About Me</h2>
+    <p class="text-lg leading-relaxed">
+      I’m Moheed Zafar, a seasoned iOS developer with 6+ years of experience. I've built several high-quality, intuitive apps like <strong>Cruuz</strong>, <strong>Toprent</strong>, <strong>Zestlog</strong>, and many others available on the App Store.
+    </p>
+  </div>
+  <div class="mt-5 flex flex-wrap justify-center space-x-6 text-sm font-medium text-primary">
+        <a href="https://www.linkedin.com/in/moheed-zafar-8a4a5716b" target="_blank" class="hover:text-secondary underline">LinkedIn</a>
+        <a href="https://www.freelancer.com/u/MzHashmi" target="_blank" class="hover:text-secondary underline">Freelancer</a>
+        <a href="https://www.upwork.com/freelancers/moheedz" target="_blank" class="hover:text-secondary underline">Upwork</a>
+        <a href="mailto:Moheedzafarhashmi@gmail.com" class="hover:text-secondary underline">Email</a>
+      </div>
+</section>
+  <!-- Footer -->
+  <footer class="text-center py-6 text-sm text-white opacity-80">
+    &copy; 2025 Moheed Zafar. All rights reserved.
   </footer>
 </body>
+
 </html>
